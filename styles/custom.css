@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css?family=Cairo|Changa|El+Messiri|Mada|Mirza|Tajawal');
+body {
+/*font-family: 'Cairo', sans-serif;*/
+font-family: 'Tajawal', sans-serif;
+/*font-family: 'El Messiri', sans-serif;*/
+/*font-family: 'Changa', sans-serif;*/
+/*font-family: 'Mada', sans-serif;*/
+/*font-family: 'Mirza', cursive;*/
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.header-home i {
+  font-size: 30px;
+  line-height: 1.6;
+} 
+
+.is-ios .page-content {
+	padding-bottom: 70px;
+}
+.footer-menu-5-icons a {
+	width: 12.5%;
+}
+.vid i {
+	color: #fff;
+    font-size: 20px;
+    top: 50%;
+    position: absolute;
+    z-index: 2;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 3px solid;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 50%;
+}
+.title {
+	margin: 12px 0;
+}
+.title h2 {
+	text-align: center;
+	font-weight: bold;
+}
+
+.logo img {
+	  width: 70px;
+    float: right;
+    margin: 10px 10px;
+}
+
+.header-logo-center .header-title {
+    transform: translate(-50%,0%);
+    left: 48%;
+    margin-left: 0px;
+    }
+
+    .caption-bottom {
+    	text-align: right;
+    }
+
+.caption-top i{
+	  float: right;
+    margin-right: 15px;
+}
+
+.owl-carousel .owl-item img, .owl-carousel .owl-item img.owl-lazy {
+	height: 100%;
+}
+
+.menu-title h1 {
+	text-align: center;
+	    padding: 3px 0 0;
+}
+
+.menu-title a {
+	font-size: 20px;
+    color: #bf263c;
+    width: 55px;
+    line-height: 40px;
+    right: -15px;
+    top: 0;
+}
+.link-list-1 a i:first-child {
+	right: 0;
+}
+
+.link-list-1 a span {
+
+    margin-right: 43px;
+    text-align: right;
+}
+/*======================================== start Player ================================================*/
+.player {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  padding: 10px;
+  margin-top: -50px;
+}
+
+.player-controls {
+  background-color: #fff;
+  border-radius: 15px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.song-panel {
+  background-color: #FCF8FA;
+  border-radius: 15px 15px 0 0;
+  display: flex;
+  height: 75px;
+  justify-content: flex-end;
+  padding: 0 12px 12px 12px;
+  transform: translate3d(0, 100%, 0);
+  transition: all 1s ease;
+  width: 100%;
+  z-index: 0;
+}
+.song-panel .song-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 230px;
+}
+.song-panel .song-info .song-info__title {
+  color: #444b59;
+  font-size: 0.8rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+  text-align: right;
+}
+.song-panel .song-info .song-info__artist {
+  color: #a5a7af;
+  font-size: 0.7rem;
+  margin-bottom: 10px;
+  text-align: right;
+}
+.song-panel .song-info .progress {
+  background: #fff;
+  border-radius: 3px;
+  cursor: ew-resize;
+  display: flex;
+  flex: 10;
+  flex-basis: 100%;
+  max-height: 5px;
+  position: relative;
+  transition: height 0.3s;
+  width: 100%;
+}
+.song-panel .song-info .progress .progress__filled {
+  background: #fc8da8;
+  flex: 0;
+  flex-basis: 0%;
+  width: 50%;
+}
+.song-panel.playing {
+  transform: translate3d(0, 0, 0);
+  transition: all 1s ease;
+}
+
+.player button {
+  height: 70px;
+  width: 70px;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  color: #DFDBE0;
+  margin: 0 5px;
+  border-radius: 15px;
+  position: relative;
+}
+
+.player button:hover, button.playing {
+  background-color: #E0DEE1;
+  color: #fff;
+}
+
+.player button.play span.pause {
+  background-color: white;
+  position: absolute;
+  top: 23px;
+  height: 34px;
+  width: 10px;
+  display: block;
+  border-radius: 3px;
+  opacity: 0;
+  transition: all .5s ease;
+}
+
+.player button.play span.pause.left {
+  left: 0;
+}
+
+.player button.play.playing span.pause.left {
+  left: 20px;
+  opacity: 1;
+  transition: left .5s ease, opacity .8s ease;
+}
+
+.player button.play span.pause.right {
+  right: 0;
+}
+
+.player button.play.playing span.pause.right {
+  right: 20px;
+  opacity: 1;
+  transition: right .5s ease, opacity .8s ease;
+}
+
+.player button.play i {
+  opacity: 1;
+  transition: opacity .5s ease;
+}
+
+.player button.play.playing i {
+  opacity: 0;
+  transition: all .5s ease;
+}
+
+.player-controls {
+  position: relative;
+}
+.player-controls .spinner {
+    height: 130px;
+    width: 130px;
+    position: absolute;
+    top: -55px;
+    left: -10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.player-controls .spinner.spin {
+  animation: spin 5s linear infinite;
+}
+.player-controls .spinner .spinner__disc {
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    transition: all 1s ease;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.player-controls .spinner .spinner__disc.scale {
+  transform: scale(1.17);
+  transition: all 1s ease;
+}
+.player-controls .spinner .spinner__disc.scale .center__disc {
+  color: #e4d6e9;
+  transition: all 1s ease;
+}
+.player-controls .spinner .spinner__disc .center__disc {
+  background-color: white;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+/*======================================== End Player ================================================*/
+
+/*======================================== start all videos page ================================================*/
+.content-boxed i {
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    color: #fff;
+    font-size: 18px;
+    z-index: 2;
+    transform: translate(-50%,-50%);
+    border: 3px solid;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 50%;
+}
+
+.title_player p {
+    margin-bottom: 0px;
+    text-align: right;
+}
+
+.single_aud {
+   top: -30px !important;
+}
+.line {
+  margin-bottom: 0px !important;
+}
+
+.gallery-filter-controls li {
+  float: left;
+  font-size: 12px;
+  padding-left: 9px;
+}
+
+.gallery-filter-controls li:first-child {
+  float: right !important;
+  padding-right:0px;
+}
+
+
+
+
+video {
+  margin-bottom: 15px;
+}
+
+.single_image img {
+    width: 70%;
+    padding: 10px;
+    margin: auto;
+    margin-top: -15px;
+}
+
+.single_audio {
+ margin-top: -25px;
+}
+
+.profile_menu {
+ height: 150px !important;
+}
+
+.profile_menu p {
+  text-align: center;
+    font-size: 20px;
+    margin-top: 7px;
+    margin-bottom: 15px;
+} 
+.color-white2-dark {
+  color: #fff;
+}
+
+#menu-services {
+  height: 440px !important;
+}
