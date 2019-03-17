@@ -11,9 +11,9 @@
 <!-- ===================== header ========================= -->
 <div class="page-content header-clear-small">
 <div class="single_image">
-<img src="images/photos/1.gif" alt="photo">
+<img src="images/photos/1.jpg" alt="photo">
 </div>
-<a href="images/photos/1.gif" class="button button-full left-10 right-10 button-xxs button-round-large bg-highlight shadow-large bottom-20" download>تحميل</a>
+<a href="images/photos/1.jpg" class="button button-full left-10 right-10 button-xxs button-round-large bg-highlight shadow-large bottom-20" download>تحميل</a>
 <a href="all_images.php" class="button button-full left-10 right-10 button-xxs button-round-large bg-highlight shadow-large bottom-20">المزيد</a>
 </div>
 <!-- ==================================== -->

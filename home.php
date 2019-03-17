@@ -16,30 +16,40 @@
 <a href="single_video.php">
 <div class="caption vid caption-margins round-medium shadow-large bottom-20">
 <div class="caption-bottom">
-<h1 class="color-white center-text bolder bottom-20">ان هذا الصراط</h1>
+<h1 class="color-white center-text bolder bottom-20">الدعاء المستجاب</h1>
 </div>
 <div class="caption-overlay bg-gradient"></div>
 <img class="caption-image owl-lazy" data-src="images/video/1.jpg">
 <i class="fas fa-play"></i>
 </div>
 </a>
-<a href="single_video.php">
+<a href="single_video_2.php">
 <div class="caption vid caption-margins round-medium shadow-large bottom-20">
 <div class="caption-bottom">
-<h1 class="color-white center-text bolder bottom-20">دعاء اثناء النوم</h1>
+<h1 class="color-white center-text bolder bottom-20">جرب تعيش الدين بإنسانية</h1>
 </div>
 <div class="caption-overlay bg-gradient"></div>
 <img class="caption-image owl-lazy" data-src="images/video/2.jpg">
 <i class="fas fa-play"></i>
 </div>
 </a>
-<a href="single_video.php">
+<a href="single_video_3.php">
 <div class="caption vid caption-margins round-medium shadow-large bottom-20">
 <div class="caption-bottom">
-<h1 class="color-white center-text bolder bottom-20">خير الصباح</h1>
+<h1 class="color-white center-text bolder bottom-20">الشيخ عمر عبد الكافي</h1>
 </div>
 <div class="caption-overlay bg-gradient"></div>
 <img class="caption-image owl-lazy" data-src="images/video/3.jpg">
+<i class="fas fa-play"></i>
+</div>
+</a>
+<a href="single_video_4.php">
+<div class="caption vid caption-margins round-medium shadow-large bottom-20">
+<div class="caption-bottom">
+<h1 class="color-white center-text bolder bottom-20">الشيخ زغلول النجار</h1>
+</div>
+<div class="caption-overlay bg-gradient"></div>
+<img class="caption-image owl-lazy" data-src="images/video/4.jpg">
 <i class="fas fa-play"></i>
 </div>
 </a>
@@ -52,28 +62,28 @@
 <a href="single_image.php">
 <div class="caption round-medium shadow-huge bottom-15">
 <div class="caption-bottom">
-<h6 class="color-white center-text bolder bottom-0">الصلوات المحمدية</h6>
+<h6 class="color-white center-text bolder bottom-0">كم مره اغلقت بابك عليك</h6>
 </div>
 <div class="caption-overlay bg-gradient"></div>
-<img class="caption-image owl-lazy" data-src="images/photos/1.gif">
+<img class="caption-image owl-lazy" data-src="images/photos/1.jpg">
 </div>
 </a>
 <a href="single_image.php">
 <div class="caption round-medium shadow-huge bottom-15">
 <div class="caption-bottom">
-<h6 class="color-white center-text bolder bottom-0">اللهم بابك مفتوح للسائل</h6>
+<h6 class="color-white center-text bolder bottom-0">فاذكروني أذكركم</h6>
 </div>
 <div class="caption-overlay bg-gradient"></div>
-<img class="caption-image owl-lazy" data-src="images/photos/2.gif">
+<img class="caption-image owl-lazy" data-src="images/photos/2.jpg">
 </div>
 </a>
 <a href="single_image.php">
 <div class="caption round-medium shadow-huge bottom-15">
 <div class="caption-bottom">
-<h6 class="color-white center-text bolder bottom-0">المغفرة</h6>
+<h6 class="color-white center-text bolder bottom-0">الداعية شريف شحاتة</h6>
 </div>
 <div class="caption-overlay bg-gradient"></div>
-<img class="caption-image owl-lazy" data-src="images/photos/3.gif">
+<img class="caption-image owl-lazy" data-src="images/photos/3.jpg">
 </div>
 </a>
 </div>
