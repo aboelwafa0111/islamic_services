@@ -40,7 +40,7 @@
 <div class="content-boxed content-boxed-full">
 <a data-height="175" class="default-link caption bottom-0" href="single_video_3.php">
 <div class="caption-bottom">
-<h1 class="color-white center-text bolder bottom-20">الشيخ عمر عبد الكافي</h1>
+<h1 class="color-white center-text bolder bottom-20">ثلث لطعامك</h1>
 </div>
 <i class="fas fa-play"></i>
 <div class="caption-overlay bg-black opacity-80"></div>
@@ -52,7 +52,7 @@
 <div class="content-boxed content-boxed-full">
 <a data-height="175" class="default-link caption bottom-0" href="single_video_4.php">
 <div class="caption-bottom">
-<h1 class="color-white center-text bolder bottom-20">الشيخ زغلول النجار</h1>
+<h1 class="color-white center-text bolder bottom-20">القصص الحق</h1>
 </div>
 <i class="fas fa-play"></i>
 <div class="caption-overlay bg-black opacity-80"></div>

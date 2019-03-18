@@ -1,31 +1,31 @@
 const tracks = [
   {
     id: '1',
-    title: 'لبيك ربي',
-    artist: 'مشاري راشد',
-    src: 'audio/4.mp3',
-    cover: 'audio/4.jpg'
-  },
-  {
-    id: '2',
-    title: 'رسولنا الحبيب',
-    artist: 'مشاري راشد',
+    title: 'الفاتحة',
+    artist: 'القران الكريم',
     src: 'audio/1.mp3',
     cover: 'audio/1.jpg'
   },
   {
-    id: '3',
-    title: 'الحمدلله الذي بنعمتة',
-    artist: 'مشاري راشد',
+    id: '2',
+    title: 'سورة عبس',
+    artist: 'القران الكريم',
     src: 'audio/2.mp3',
     cover: 'audio/2.jpg'
   },
   {
-    id: '4',
-    title: 'اذا رميت من الزمان',
-    artist: 'مشاري راشد',
+    id: '3',
+    title: 'اللهم انا نسالك',
+    artist: 'دعاء',
     src: 'audio/3.mp3',
     cover: 'audio/3.jpg'
+  },
+  {
+    id: '4',
+    title: 'غير طريقه حياتك',
+    artist: 'محاضرة',
+    src: 'audio/4.mp3',
+    cover: 'audio/4.jpg'
   }
 ];
 const player = document.querySelector('.player');

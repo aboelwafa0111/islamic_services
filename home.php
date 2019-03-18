@@ -36,7 +36,7 @@
 <a href="single_video_3.php">
 <div class="caption vid caption-margins round-medium shadow-large bottom-20">
 <div class="caption-bottom">
-<h1 class="color-white center-text bolder bottom-20">الشيخ عمر عبد الكافي</h1>
+<h1 class="color-white center-text bolder bottom-20">ثلث لطعامك</h1>
 </div>
 <div class="caption-overlay bg-gradient"></div>
 <img class="caption-image owl-lazy" data-src="images/video/3.jpg">
@@ -46,7 +46,7 @@
 <a href="single_video_4.php">
 <div class="caption vid caption-margins round-medium shadow-large bottom-20">
 <div class="caption-bottom">
-<h1 class="color-white center-text bolder bottom-20">الشيخ زغلول النجار</h1>
+<h1 class="color-white center-text bolder bottom-20">القصص الحق</h1>
 </div>
 <div class="caption-overlay bg-gradient"></div>
 <img class="caption-image owl-lazy" data-src="images/video/4.jpg">
@@ -98,12 +98,12 @@
   </audio>
   <div class="song-panel">
     <div class="song-info">
-      <div class="song-info__title">لبيك ربي</div>
-      <div class="song-info__artist">مشاري راشد</div>
+      <div class="song-info__title">غير طريقه حياتك</div>
+      <div class="song-info__artist">محاضره</div>
       <div class="progress">
         <div class="progress__filled"></div>
       </div>
-    </div>
+    </div> 
   </div>
   <div class="player-controls">
     <div class="spinner">

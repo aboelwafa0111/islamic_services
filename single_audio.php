@@ -10,17 +10,17 @@
 </div>
 <!-- ===================== header ========================= -->
 <div class="page-content header-clear-small">
-<div class="title"><h2>اسم الدعاء</h2></div>
+<div class="title"><h2>الفاتحة</h2></div>
 <div class="divider"></div>
 <div class="player single_audio">
   <audio class="player__audio viewer">
-    <source src="audio/4.mp3" type="audio/mpeg" data-trackid="1">
+    <source src="audio/1.mp3" type="audio/mpeg" data-trackid="1">
     Your browser does not support the audio element.
   </audio>
   <div class="song-panel">
     <div class="song-info">
-      <div class="song-info__title">لبيك ربي</div>
-      <div class="song-info__artist">مشاري راشد</div>
+      <div class="song-info__title">الفاتحة</div>
+      <div class="song-info__artist">القران الكريم</div>
       <div class="progress">
         <div class="progress__filled"></div>
       </div>
@@ -28,7 +28,7 @@
   </div>
   <div class="player-controls">
     <div class="spinner">
-      <div class="spinner__disc" style="background-image: url(audio/4.jpg)">
+      <div class="spinner__disc" style="background-image: url(audio/1.jpg)">
         <div class="center__disc"></div>
       </div>
     </div>

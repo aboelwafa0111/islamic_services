@@ -10,7 +10,7 @@
 </div>
 <!-- ===================== header ========================= -->
 <div class="page-content header-clear-small">
-<div class="title"><h2>الشيخ عمر عبد الكافي</h2></div>
+<div class="title"><h2>ثلث لطعامك</h2></div>
 <div class="divider"></div>
 <video width="100%" controls>
   <source src="videos/3.mp4" type="video/mp4">

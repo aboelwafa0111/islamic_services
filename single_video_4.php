@@ -10,7 +10,7 @@
 </div>
 <!-- ===================== header ========================= -->
 <div class="page-content header-clear-small">
-<div class="title"><h2>الشيخ زغلول النجار</h2></div>
+<div class="title"><h2>القصص الحق</h2></div>
 <div class="divider"></div>
 <video width="100%" controls>
   <source src="videos/4.mp4" type="video/mp4">
